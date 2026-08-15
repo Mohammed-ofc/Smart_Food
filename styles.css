@@ -418,34 +418,121 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 40px;
 }
 
 .mockup-bg-circle {
     position: absolute;
-    width: 320px;
-    height: 320px;
-    background-color: #fcd9ca;
+    width: 480px;
+    height: 480px;
+    background-color: #fce3d5; /* soft orange background circle */
     border-radius: 50%;
     z-index: 1;
     top: 50%;
     left: 45%;
     transform: translate(-50%, -50%);
-    opacity: 0.8;
+    opacity: 0.85;
 }
 
 .hero-mockup {
     width: 100%;
-    max-width: 650px;
+    max-width: 290px;
     height: auto;
+    border-radius: 40px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.12);
+    border: 9px solid #1a1e19;
     object-fit: contain;
     position: relative;
-    z-index: 2;
+    z-index: 5;
 }
 
+/* Decorative Background Ingredients */
+.deco-tomato {
+    position: absolute;
+    width: 110px;
+    height: auto;
+    left: -20px;
+    bottom: 0px;
+    z-index: 6;
+}
+
+.deco-leaf-left {
+    position: absolute;
+    width: 130px;
+    height: auto;
+    left: -40px;
+    top: 30%;
+    z-index: 4;
+}
+
+.deco-leaf-right {
+    position: absolute;
+    width: 120px;
+    height: auto;
+    right: -20px;
+    top: 15%;
+    z-index: 4;
+}
+
+.deco-leaf-top {
+    position: absolute;
+    width: 65px;
+    height: auto;
+    right: 40px;
+    top: 0%;
+    z-index: 4;
+}
+
+.deco-noodles {
+    position: absolute;
+    width: 290px;
+    height: auto;
+    right: -80px;
+    bottom: -10px;
+    z-index: 3;
+}
+
+/* Peppercorn Groups */
+.deco-peppercorns-left {
+    position: absolute;
+    left: 20px;
+    bottom: 120px;
+    width: 30px;
+    height: 40px;
+    z-index: 6;
+}
+
+.deco-peppercorns-right {
+    position: absolute;
+    right: 10px;
+    top: 140px;
+    width: 30px;
+    height: 40px;
+    z-index: 6;
+}
+
+.pepper-dot {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #242921;
+    border-radius: 50%;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+.deco-peppercorns-left .dot-1 { top: 0; left: 5px; width: 6px; height: 6px; }
+.deco-peppercorns-left .dot-2 { top: 15px; left: 15px; width: 5px; height: 5px; background-color: #151813; }
+.deco-peppercorns-left .dot-3 { top: 30px; left: 0px; width: 6px; height: 6px; }
+
+.deco-peppercorns-right .dot-1 { top: 0; right: 5px; width: 6px; height: 6px; }
+.deco-peppercorns-right .dot-2 { top: 18px; right: 12px; width: 5px; height: 5px; background-color: #d67928; }
+.deco-peppercorns-right .dot-3 { top: 35px; right: 0px; width: 7px; height: 7px; }
+
+/* Floating Card */
 .floating-assistant-card {
     position: absolute;
-    bottom: 20%;
-    right: -20px;
+    bottom: 30%;
+    right: -60px;
     background-color: #ffffff;
     border: 1px solid var(--color-border);
     border-radius: 16px;
@@ -454,7 +541,7 @@ body {
     align-items: center;
     gap: 12px;
     box-shadow: 0 15px 30px rgba(0,0,0,0.06);
-    z-index: 3;
+    z-index: 10;
     width: 210px;
 }
 
@@ -475,7 +562,7 @@ body {
     position: absolute;
     top: 4px;
     right: 4px;
-    color: #6db182;
+    color: #4a6332;
 }
 
 .floating-card-text h4 {
