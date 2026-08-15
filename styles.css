@@ -436,64 +436,59 @@ body {
 
 .hero-mockup {
     width: 100%;
-    max-width: 650px;
+    max-width: 600px;
     height: auto;
     object-fit: contain;
     position: relative;
-    z-index: 2;
+    z-index: 5;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
 }
 
-/* Decorative Background Ingredients & Floating Cards */
-.floating-card-fridge {
+/* Decorative Background Ingredients */
+.deco-tomato {
     position: absolute;
-    width: 180px;
+    width: 110px;
     height: auto;
-    left: -80px;
-    bottom: 5%;
+    left: -20px;
+    bottom: 0px;
     z-index: 6;
-    border-radius: 14px;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
 }
 
-.floating-card-recipe {
+.deco-leaf-left {
     position: absolute;
-    width: 180px;
+    width: 130px;
     height: auto;
-    left: -90px;
-    top: 25%;
-    z-index: 6;
-    border-radius: 14px;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
-}
-
-.floating-card-assistant {
-    position: absolute;
-    width: 190px;
-    height: auto;
-    right: -80px;
-    bottom: 25%;
-    z-index: 6;
-    border-radius: 14px;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
-}
-
-.floating-card-chef {
-    position: absolute;
-    width: 135px;
-    height: auto;
-    right: -30px;
-    top: 8%;
+    left: -40px;
+    top: 30%;
     z-index: 4;
-    border-radius: 14px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+}
+
+.deco-leaf-right {
+    position: absolute;
+    width: 120px;
+    height: auto;
+    right: -20px;
+    top: 15%;
+    z-index: 4;
+}
+
+.deco-leaf-top {
+    position: absolute;
+    width: 65px;
+    height: auto;
+    right: 40px;
+    top: 0%;
+    z-index: 4;
 }
 
 .deco-noodles {
     position: absolute;
-    width: 320px;
+    width: 290px;
     height: auto;
-    right: -100px;
-    bottom: -20px;
+    right: -80px;
+    bottom: -10px;
     z-index: 3;
 }
 
