@@ -149,6 +149,13 @@ body {
     color: var(--accent-clay);
 }
 
+.logo-img {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
 .logo-text-smart {
     font-family: var(--font-sans);
     font-size: 1.4rem;
