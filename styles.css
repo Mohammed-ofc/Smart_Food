@@ -436,7 +436,7 @@ body {
 
 .hero-mockup {
     width: 100%;
-    max-width: 600px;
+    max-width: 650px;
     height: auto;
     object-fit: contain;
     position: relative;
@@ -444,6 +444,8 @@ body {
     border: none;
     box-shadow: none;
     border-radius: 0;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
 }
 
 /* Decorative Background Ingredients */
