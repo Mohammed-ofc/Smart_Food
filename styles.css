@@ -10,8 +10,8 @@
     --bg-dark: #151813;       /* Deep Olive/Charcoal Black */
     
     /* Brand Accents */
-    --accent-green: #2a4c38;   /* Deep Forest Green */
-    --accent-clay: #d17a5c;    /* Soft Terracotta Clay */
+    --accent-green: #4A6332;   /* Green */
+    --accent-clay: #D67928;    /* Orange */
     --color-text: #242921;     /* Soft Charcoal */
     --color-muted: #6b7267;    /* Sage Muted Grey */
     --color-border: #e3e1db;   /* Soft warm line */
@@ -214,7 +214,7 @@ body {
 }
 
 .btn-view-case:hover {
-    background-color: #1f3929;
+    background-color: #384c26;
     transform: translateY(-1px);
 }
 
@@ -392,7 +392,7 @@ body {
 }
 
 .btn-orange:hover {
-    background-color: #be6b4f;
+    background-color: #b7621c;
     transform: translateY(-1px);
 }
 
