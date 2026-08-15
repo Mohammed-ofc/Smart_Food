@@ -435,11 +435,8 @@ body {
 
 .hero-mockup {
     width: 100%;
-    max-width: 290px;
+    max-width: 650px;
     height: auto;
-    border-radius: 40px;
-    box-shadow: 0 30px 60px rgba(0,0,0,0.12);
-    border: 9px solid #1a1e19;
     object-fit: contain;
     position: relative;
     z-index: 2;
